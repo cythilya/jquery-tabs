@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>jQuery Tabs Plugin by cythilya</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>jQuery Tabs Plugin</h1>
+        <h2>Tabs plugin for jquery.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/cythilya/jquery-tabs/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/cythilya/jquery-tabs/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/cythilya/jquery-tabs" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="jquery-tabs-plugin" class="anchor" href="#jquery-tabs-plugin" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>jQuery Tabs Plugin</h1>
+
+<p>Tabs plugin for jquery.</p>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Lightweight</li>
+<li>Easy to customize</li>
+</ul>
+
+<h2>
+<a id="options" class="anchor" href="#options" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Options</h2>
+
+<ul>
+<li>customClass: add custom class.</li>
+<li>selectedNumber: default tab number to show when page loaded. default value: 1.</li>
+</ul>
+
+<h2>
+<a id="setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h2>
+
+<h3>
+<a id="html-snippet" class="anchor" href="#html-snippet" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML Snippet</h3>
+
+<pre><code>&lt;div class="tabs"&gt;
+    &lt;!-- tab nav start --&gt;
+    &lt;ul class="tabs-nav clearfix"&gt;
+        &lt;li class="tabs-nav-item selected"&gt;
+            &lt;a class="tabs-nav-link" href="#tab-1"&gt;tab 1&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="tabs-nav-item"&gt;
+            &lt;a class="tabs-nav-link" href="#tab-2"&gt;tab 2&lt;/a&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;!-- tab nav end --&gt;
+    &lt;!-- tab panel start --&gt;
+    &lt;div id="tab-1" class="tab-panel"&gt;
+        &lt;div class="tab-content"&gt;
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam...     
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id="tab-2" class="tab-panel"&gt;
+        &lt;div class="tab-content"&gt;
+            Sed ut perspiciatis unde omnis...
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;!-- tab panel end --&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h3>
+<a id="javascript-snippet" class="anchor" href="#javascript-snippet" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript Snippet</h3>
+
+<pre><code>//start
+$(function() {
+    $('.tabs').tabs({
+        customClass: 'custom',
+        selectedNumber: 2
+    });
+});
+</code></pre>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
+
+<ul>
+<li>jQuery v.1.8.2+<br>
+</li>
+</ul>
+
+<h2>
+<a id="browsers" class="anchor" href="#browsers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Browsers</h2>
+
+<ul>
+<li>Google Chrome</li>
+<li>Mozilla Firefox</li>
+<li>Microsoft Internet Explorer 8.0+</li>
+</ul>
+
+<h2>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
+
+<p><a href="#">Demo</a></p>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>Released under the <a href="http://opensource.org/licenses/MIT">MIT license</a>.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
