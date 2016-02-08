@@ -26,12 +26,12 @@ Tabs plugin for jquery.
 		<!-- tab panel start -->
 	    <div id="tab-1" class="tab-panel">
 	        <div class="tab-content">
-	            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.        
+	            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam...     
 	        </div>
 	    </div>
 	    <div id="tab-2" class="tab-panel">
 	        <div class="tab-content">
-	            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+	            Sed ut perspiciatis unde omnis...
 	        </div>
 	    </div>
 		<!-- tab panel end -->
