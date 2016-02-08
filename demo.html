@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+<head>
+<title>jQuery Tabs Plugin</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="skin/reset-font-min.css">
+<link rel="stylesheet" href="skin/clearfix.css">
+<link rel="stylesheet" href="skin/tabs.css">
+<style>
+.tabs{width:960px;margin:50px auto 0 auto;}
+</style>
+</head>
+<body>
+<div class="tabs">
+    <!-- tab nav start -->
+    <ul class="tabs-nav clearfix">
+        <li class="tabs-nav-item selected">
+            <a class="tabs-nav-link" href="#tab-1">tab 1</a>
+        </li>
+        <li class="tabs-nav-item">
+            <a class="tabs-nav-link" href="#tab-2">tab 2</a>
+        </li>
+        <li class="tabs-nav-item">
+            <a class="tabs-nav-link" href="#tab-3">tab 3</a>
+        </li>
+        <li class="tabs-nav-item">
+            <a class="tabs-nav-link" href="#tab-4">tab 4</a>
+        </li>
+    </ul>
+    <!-- tab nav end -->
+    <!-- tab panel start -->
+    <div id="tab-1" class="tab-panel">
+        <div class="tab-content">
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.        
+        </div>
+    </div>
+    <div id="tab-2" class="tab-panel">
+        <div class="tab-content">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </div>
+    </div>
+    <div id="tab-3" class="tab-panel">
+        <div class="tab-content">
+            The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab quick-jived waltz.
+        </div>
+    </div>
+    <div id="tab-4" class="tab-panel">
+        <div class="tab-content">
+            abc def ghi jkl mno pqrs tuv wxyz ABC DEF GHI JKL MNO PQRS TUV WXYZ !
+        </div>
+    </div>
+    <!-- tab panel end -->
+</div>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/tabs.js"></script>
+<script>
+//start
+$(function() {
+    $('.tabs').tabs({
+        customClass: 'custom',
+        selectedNumber: 2
+    });
+});
+</script>
+</body>
+</html>
