@@ -56,7 +56,7 @@ Tabs plugin for jquery.
 - Microsoft Internet Explorer 8.0+
 
 ## Demo
-[Demo](#)
+[Demo](http://cythilya.github.io/jquery-tabs)
 
 ## License
 Released under the [MIT license](http://opensource.org/licenses/MIT).
