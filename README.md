@@ -12,6 +12,7 @@ Tabs plugin for jquery.
 ## Setup
 ### HTML Snippet
 
+```html
 	<div class="tabs">
 		<!-- tab nav start -->
 	    <ul class="tabs-nav clearfix">
@@ -36,6 +37,7 @@ Tabs plugin for jquery.
 	    </div>
 		<!-- tab panel end -->
 	</div>
+```
 
 ### JavaScript Snippet
 
