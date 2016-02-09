@@ -55,43 +55,41 @@
 <h3>
 <a id="html-snippet" class="anchor" href="#html-snippet" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>HTML Snippet</h3>
 
-<pre><code>&lt;div class="tabs"&gt;
-    &lt;!-- tab nav start --&gt;
-    &lt;ul class="tabs-nav clearfix"&gt;
-        &lt;li class="tabs-nav-item selected"&gt;
-            &lt;a class="tabs-nav-link" href="#tab-1"&gt;tab 1&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="tabs-nav-item"&gt;
-            &lt;a class="tabs-nav-link" href="#tab-2"&gt;tab 2&lt;/a&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;!-- tab nav end --&gt;
-    &lt;!-- tab panel start --&gt;
-    &lt;div id="tab-1" class="tab-panel"&gt;
-        &lt;div class="tab-content"&gt;
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs<span class="pl-pds">"</span></span>&gt;
+    <span class="pl-c">&lt;!-- tab nav start --&gt;</span>
+    &lt;<span class="pl-ent">ul</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs-nav clearfix<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">li</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs-nav-item selected<span class="pl-pds">"</span></span>&gt;
+            &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs-nav-link<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>#tab-1<span class="pl-pds">"</span></span>&gt;tab 1&lt;/<span class="pl-ent">a</span>&gt;
+        &lt;/<span class="pl-ent">li</span>&gt;
+        &lt;<span class="pl-ent">li</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs-nav-item<span class="pl-pds">"</span></span>&gt;
+            &lt;<span class="pl-ent">a</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tabs-nav-link<span class="pl-pds">"</span></span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>#tab-2<span class="pl-pds">"</span></span>&gt;tab 2&lt;/<span class="pl-ent">a</span>&gt;
+        &lt;/<span class="pl-ent">li</span>&gt;
+    &lt;/<span class="pl-ent">ul</span>&gt;
+    <span class="pl-c">&lt;!-- tab nav end --&gt;</span>
+    <span class="pl-c">&lt;!-- tab panel start --&gt;</span>
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-1<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-panel<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-content<span class="pl-pds">"</span></span>&gt;
             Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam...     
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div id="tab-2" class="tab-panel"&gt;
-        &lt;div class="tab-content"&gt;
+        &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-2<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-panel<span class="pl-pds">"</span></span>&gt;
+        &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>tab-content<span class="pl-pds">"</span></span>&gt;
             Sed ut perspiciatis unde omnis...
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;!-- tab panel end --&gt;
-&lt;/div&gt;
-</code></pre>
+        &lt;/<span class="pl-ent">div</span>&gt;
+    &lt;/<span class="pl-ent">div</span>&gt;
+    <span class="pl-c">&lt;!-- tab panel end --&gt;</span>
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
 
 <h3>
 <a id="javascript-snippet" class="anchor" href="#javascript-snippet" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>JavaScript Snippet</h3>
 
-<pre><code>//start
-$(function() {
-    $('.tabs').tabs({
-        customClass: 'custom',
-        selectedNumber: 2
+<div class="highlight highlight-source-js"><pre><span class="pl-c">//start</span>
+<span class="pl-en">$</span>(<span class="pl-k">function</span>() {
+    <span class="pl-en">$</span>(<span class="pl-s"><span class="pl-pds">'</span>.tabs<span class="pl-pds">'</span></span>).<span class="pl-en">tabs</span>({
+        customClass<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>custom<span class="pl-pds">'</span></span>,
+        selectedNumber<span class="pl-k">:</span> <span class="pl-c1">2</span>
     });
-});
-</code></pre>
+});</pre></div>
 
 <h2>
 <a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h2>
@@ -113,7 +111,7 @@ $(function() {
 <h2>
 <a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h2>
 
-<p><a href="#">Demo</a></p>
+<p><a href="http://cythilya.github.io/jquery-tabs">Demo</a></p>
 
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
