@@ -39,6 +39,7 @@ Tabs plugin for jquery.
 
 ### JavaScript Snippet
 
+```javascript
 	//start
 	$(function() {
 	    $('.tabs').tabs({
@@ -46,6 +47,7 @@ Tabs plugin for jquery.
 	        selectedNumber: 2
 	    });
 	});
+```
 
 ## Requirements
 - jQuery v.1.8.2+  
